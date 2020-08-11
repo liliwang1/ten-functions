@@ -20,3 +20,42 @@
  * and
  * concat
  */
+function isTrue(a) {
+    return a === true;
+}
+
+function isFalse(b) {
+    return b === false;
+}
+
+function not(c) {
+    return !c;
+}
+
+function addOne(d) {
+    return Number(d) + 1;
+}
+
+function isEven(e) {
+    return parseInt(e) % 2 === 0;
+}
+
+function isIdentical(f, g) {
+    return f === g;
+}
+
+function isEqual(h, i) {
+    return h == i;
+}
+
+function or(j, k) {
+    return j || k;
+}
+
+function and(l, m) {
+    return l && m;
+}
+
+function concat(n, o) {
+    return n.toString() + o.toString();
+}
